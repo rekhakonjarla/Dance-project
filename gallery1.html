@@ -1,0 +1,193 @@
+<html>
+<head>
+    <title></title>
+</head>
+<style>
+    nav{
+    flex: 1;
+    text-align: right;
+    background:wheat;
+}
+nav ul{
+    display: inline-block;
+    line-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 20;
+}
+nav ul li a{ 
+    text-decoration: none;
+    color: rgb(206, 209, 37);
+    background-color: rgb(35, 6, 73);
+    padding: 20px;
+    border-radius: 30%;
+}
+nav ul li a:hover{
+    background-color: rgb(6, 4, 26);
+    border-color: black;
+    border-radius: 25%;
+    transition: all 1s;
+}
+.main{
+    display: flex;
+    
+}
+#gallery{
+    height:1340px;
+    width:95%;
+    margin:auto;
+    border:1px solid blueviolet;
+    border-radius:30px;
+    box-shadow: 4px 4px 8px 5px black;
+    padding:32px;
+}
+.galleryrow1 .gall{
+    height: 350px;
+    float:left;
+    width:19%;
+    margin-left:50px;
+    margin-bottom:5px;
+}
+.galleryrow1 .gall img{
+    height:220px;
+    width:220px;
+    border-radius:20px;
+    padding-left: 3%;
+}
+.galleryrow2 .gall2{
+    height:300px;
+    float:left;
+    width:30%;
+    margin: left 40px;
+    margin-bottom:5px;
+}
+.galleryrow2 .gall2 img{
+    height:220px;
+    width:220px;
+    border-radius: 20px;
+    padding-left: 25%;
+}
+.galleryRow1 .gall .imgName{
+    color: green;
+    background-color:#ecc19c;
+    text-align: center;
+    border-radius: 8%;
+    border-width: 30px;    
+}
+.galleryRow2 .gall2 .imgName{
+    color: black;
+    background-color: #aed6dc;
+    text-align: center;
+    border-radius: 50%;
+    border-width: 1000px;    
+}
+.galleryrow1 .gall img:hover{
+    height: 240px;
+    width: 240px;
+    transition:1s;
+}
+.galleryRow2 .gall2 .imgName{
+    color: green;
+    text-align: center;
+    border-radius: 30%;  
+}
+.galleryrow2 .gall2 img:hover{
+    height: 240px;
+    width: 240px;
+    transition:2s;
+}
+@media screen and (min-width:400px) and (max-width:600px){
+    body{
+        background: yellow;
+    }
+}
+
+</style>
+<body>
+    <div id="main">
+        <h2 align="center" class="animate__animated animate__bounce">Gallery</h2>
+        <div id="gallery">
+            <div class="galleryRow1">
+                <div class="gall">
+                    <img src="c1.jpg">
+                    <div class="imgName">
+                        <p>CONTEMPORARY</p>
+                    </div>
+                </div>
+                <div class="gall">
+                    <img src="c2.webp">
+                    <div class="imgName">
+                    <p>CONTEMPORARY</p>
+                    </div>
+                    </div>
+                    <div class="gall">
+                        <img src="c3.webp">
+                        <div class="imgName">
+                        <p>CONTEMPORARY</p>
+                    </div> 
+                    </div>
+                    <div class="gall">
+                        <img src="d8.jpg">
+                        <div class="imgName">
+                        <p>CONTEMPORARY</p>
+                    </div>  
+                </div>
+            </div>
+            <div class="galleryRow1">
+                <div class="gall">
+                    <img src="b1.jpg">
+                    <div class="imgName">
+                    <p>BALLET</p>
+                    </div>
+                </div>
+                <div class="gall">
+                    <img src="b2.jpeg">
+                    <div class="imgName">
+                    <p>BALLET</p>
+                    </div>
+                    </div>
+                    <div class="gall">
+                        <img src="b3.webp">
+                        <div class="imgName">
+                        <p>BALLET</p>
+                    </div> 
+                    </div>
+                    <div class="gall">
+                        <img src="b4.jpg">
+                        <div class="imgName">
+                        <p>BALLET</p>
+                    </div>  
+                </div>
+            </div>
+            <div class="galleryRow1">
+                <div class="gall">
+                    <img src="h1.jpg">
+                    <div class="imgName">
+                    <p>HIP HOP</p>
+                    </div>
+                </div>
+                <div class="gall">
+                    <img src="h2.jpg">
+                    <div class="imgName">
+                    <p>HIP HOP</p>
+                    </div>
+                    </div>
+                    <div class="gall">
+                        <img src="h3.jpg">
+                        <div class="imgName">
+                        <p>HIP HOP</p>
+                    </div> 
+                    </div>
+                    <div class="gall">
+                        <img src="h4.jpg">
+                        <div class="imgName">
+                        <p>HIP HOP</p>
+                    </div>  
+                </div>
+            </div>
+        
+    </body>
+    </html>
+    </body>
+</html>
